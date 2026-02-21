@@ -1,0 +1,38 @@
+# ==========================================
+# C Project Git Ignore Template
+# ==========================================
+
+# --- Executables (Binary Files) ---
+# Windows executables
+*.exe
+# Linux/Mac/Unix executables
+program
+book_tracker
+app
+*.out
+
+# --- Build Artifacts ---
+# Object files and temporary build files
+*.o
+*.obj
+
+# --- Data & Databases ---
+# Local database and user data should not be tracked
+*.dat
+*.db
+books.dat
+
+# --- IDE & Editor Settings ---
+# VS Code
+.vscode/
+# Visual Studio
+.vs/
+# Other common editors and OS-specific files
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+# Error and system logs
+*.log
